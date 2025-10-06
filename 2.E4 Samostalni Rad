@@ -33,7 +33,7 @@ while True:
      otpor=R/1000
      print(f"jakost je: {otpor} Kohm")
 
-
+#prekid programa
     else:
      print("Hvala na korištenju. Doviđenja!")
      break#
