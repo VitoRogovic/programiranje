@@ -11,11 +11,11 @@ while True:
 
     print("-------------------------")
 
-    opcija=int(input("izaberi opciju (0/1/2/3): "))
+    opcija=float(input("izaberi opciju (0/1/2/3): "))
  #struktura grananja
     #pretvaranje napona
     if opcija == 1:
-        U=float(input("upiši napon u V: "))
+        U=int(input("upiši napon u V: "))
     
         napon=U*1000
         print(f"napon je: {napon} mV")
@@ -33,7 +33,12 @@ while True:
      otpor=R/1000
      print(f"jakost je: {otpor} Kohm")
 
-#prekid programa
-    else:
+
+
+
+    elif opcija == 0:
      print("Hvala na korištenju. Doviđenja!")
      break#
+
+    else:
+     print("pogrešan unos")
