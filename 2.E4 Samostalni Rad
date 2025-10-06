@@ -15,7 +15,7 @@ while True:
  #struktura grananja
     #pretvaranje napona
     if opcija == 1:
-        U=int(input("upiši napon u V: "))
+        U=float(input("upiši napon u V: "))
     
         napon=U*1000
         print(f"napon je: {napon} mV")
