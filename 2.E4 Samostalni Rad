@@ -11,7 +11,7 @@ while True:
 
     print("-------------------------")
 
-    opcija=float(input("izaberi opciju (0/1/2/3): "))
+    opcija=int(input("izaberi opciju (0/1/2/3): "))
  #struktura grananja
     #pretvaranje napona
     if opcija == 1:
