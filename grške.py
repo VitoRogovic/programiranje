@@ -1,0 +1,47 @@
+#izbornik za kalkulator pretvorbe mjernih jedinica
+print("izbornik za kalkulator pretvorbe mjernih jedinica")
+print("-----------------------")
+while True:
+    print("izaberi opciju: ")
+    print("0. izlaz iz programa")
+    print("1. pretvorba napona v->mV")
+    print("2. pretvorba jakosti struje A->mA")
+    print("3. pretvorba otpora ohm->Kohm")
+
+
+    print("-------------------------")
+    try:
+
+        opcija=float(input("izaberi opciju (0/1/2/3): "))
+    except Exception as greska:
+       print(greska)
+    #struktura grananja
+    #pretvaranje naponaž
+    if opcija == 1:
+        U=float(input("upiši napon u V: "))
+    
+        napon=U*1000
+        print(f"napon je: {napon} mV")
+    #pretvor jakosti struje
+    elif opcija == 2:
+        I=float(input("upiši jakost struje u A: "))
+    
+        jakost=I*1000
+        print(f"jakost struje je: {jakost} mA")
+    #pretvor otpora
+    elif opcija == 3:
+
+
+        R=float(input("upiši otpor u ohm: "))
+        otpor=R/1000
+        print(f"jakost je: {otpor} Kohm")
+
+
+
+
+    elif opcija == 0:
+        print("Hvala na korištenju. Doviđenja!")
+        break#
+
+    else:
+         print("pogrešan unos")
