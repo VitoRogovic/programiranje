@@ -34,7 +34,7 @@ def ispisi_izbornik():
     print("  1. Izračun serijskog otpora (2 otpornika)")
     print("  2. Izračun paralelnog otpora (2 otpornika)")
     print("  3. Naponski djelitelj (U, R1, R2)")
-    print("  4. Izračun ukupnog serijskog otpora (N otpornika)")  # ➕ nova opcija
+    print("  4. Izračun ukupnog serijskog otpora (N otpornika)")  
     print("  0. Izlaz")
 
 
